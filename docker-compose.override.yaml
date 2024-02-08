@@ -1,0 +1,6 @@
+version: '3.1'
+services:
+  scheduler:
+    environment:
+      AIRFLOW__SECRETS__BACKEND: airflow.secrets.local_filesystem.LocalFilesystemBackend
+      AIRFLOW__SECRETS__BACKEND_KWARGS: '{"connections_file_path": "/include/connections.yaml"}'

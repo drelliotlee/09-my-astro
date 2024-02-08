@@ -1,0 +1,7 @@
+# apache-airflow[google]==2.6.0
+pandas
+apache-airflow-providers-google
+selenium
+pandas
+beautifulsoup4
+webdriver_manager

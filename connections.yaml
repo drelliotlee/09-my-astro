@@ -1,0 +1,10 @@
+gcp_conn:
+  conn_type: google_cloud_platform
+  description: ''
+  extra: '{"project": "my-astro-413720", "key_path": "/include/google_cloud_credentials.json", "num_retries":
+    2}'
+  host: ''
+  login: ''
+  password: null
+  port: null
+  schema: ''
